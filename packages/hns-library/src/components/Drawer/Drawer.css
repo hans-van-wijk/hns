@@ -1,6 +1,6 @@
 .hns-drawer {
   padding: var(--hns-gutter);
-  background-color: var(--hns-panel-fill-default);
+  background-color: var(--hns-panel-fill-default, #f2f2f2);
   padding: var(--hns-gutter, 2.5rem);
   position: fixed;
   top: 0;
@@ -10,4 +10,17 @@
   width: 100%;
   max-width: 290px;
   z-index: 100;
+  transform: scale(1.05) translateX(-100%);
+  transition: transform 0.25s ease-out;
+}
+
+.hns-drawer.open {
+  transform: scale(1) translateX(0);
+}
+.hns-drawer-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  cursor: pointer;
 }

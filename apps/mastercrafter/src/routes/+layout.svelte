@@ -72,8 +72,8 @@
 	export let open = false;
 </script>
 
-<button class:open on:click={() => (open = !open)}>Menu</button>
-<Drawer {open}>
+<button on:click={() => (open = !open)}>Menu</button>
+<Drawer bind:open>
 	<Stack>
 		<Navlist items={navItems} />
 
