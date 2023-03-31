@@ -3,22 +3,22 @@
 	import { Card, Carrousel, Container, Hero, Split, Stack, Text } from 'hns-library';
 </script>
 
-<Hero type="contained" title="Elevate Your Digital Presence with KAAY Digital Agency" />
+<Hero type="contained" title="Marketing solutions for startups" />
 
 <Container type="contained">
 	<Card>
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
 	</Card>
 
 	<Carrousel>
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
 	</Carrousel>
 
 	<Carrousel>
