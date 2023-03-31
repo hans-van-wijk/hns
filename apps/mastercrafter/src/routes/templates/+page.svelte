@@ -7,93 +7,42 @@
 
 <Container type="contained">
 	<Card>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
 	</Card>
 
 	<Carrousel>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
 	</Carrousel>
 
 	<Carrousel>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
-		<SplitImage
-			title="KAAY Pro - All-in-One Digital Platform"
-			subtitle="Product Design – Web Design"
-		/>
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
 	</Carrousel>
 
 	<Stack>
 		<Split>
 			<div slot="first">
 				<SplitImage
-					title="KAAY Pro - All-in-One Digital Platform"
+					title="Marketing solutions for startups"
 					subtitle="Product Design – Web Design"
 				/>
 			</div>
 			<div slot="second">
 				<SplitImage
-					title="KAAY Pro - All-in-One Digital Platform"
+					title="Marketing solutions for startups"
 					subtitle="Product Design – Web Design"
 				/>
 			</div>
@@ -101,13 +50,13 @@
 		<Split>
 			<div slot="first">
 				<SplitImage
-					title="KAAY Pro - All-in-One Digital Platform"
+					title="Marketing solutions for startups"
 					subtitle="Product Design – Web Design"
 				/>
 			</div>
 			<div slot="second">
 				<SplitImage
-					title="KAAY Pro - All-in-One Digital Platform"
+					title="Marketing solutions for startups"
 					subtitle="Product Design – Web Design"
 				/>
 			</div>
@@ -115,13 +64,13 @@
 		<Split>
 			<div slot="first">
 				<SplitImage
-					title="KAAY Pro - All-in-One Digital Platform"
+					title="Marketing solutions for startups"
 					subtitle="Product Design – Web Design"
 				/>
 			</div>
 			<div slot="second">
 				<SplitImage
-					title="KAAY Pro - All-in-One Digital Platform"
+					title="Marketing solutions for startups"
 					subtitle="Product Design – Web Design"
 				/>
 			</div>
