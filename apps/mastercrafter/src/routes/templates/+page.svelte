@@ -3,7 +3,7 @@
 	import { Card, Carrousel, Container, Hero, Split, Stack, Text } from 'hns-library';
 </script>
 
-<Hero type="contained" title="Marketing solutions for startups" />
+<Hero headingSize={4} type="contained" title="Marketing solutions for startups" />
 
 <Container type="contained">
 	<Card>

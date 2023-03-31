@@ -2,7 +2,7 @@
 	"/": [
 		"src/routes/+page.server.ts"
 	],
-	"/ethco": [],
+	"/landing-a": [],
 	"/styleguide": [],
 	"/templates": []
 }

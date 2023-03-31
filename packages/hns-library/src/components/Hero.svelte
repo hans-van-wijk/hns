@@ -4,12 +4,13 @@
   export let type: string = "";
   export let title: string = "";
   export let subtitle: string = "";
+  export let headingSize: number = 3;
 </script>
 
 <div class="hero">
   <Container {type}>
     {#if title}
-      <Heading el="h1" scale={5} text={title} />
+      <Heading el="h1" text={title} scale={headingSize} />
     {/if}
     {#if subtitle}
       <p class="hero-subtitle">{subtitle}</p>

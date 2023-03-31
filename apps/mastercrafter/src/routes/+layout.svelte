@@ -48,8 +48,8 @@
 			link: '/templates'
 		},
 		{
-			title: 'Ethco',
-			link: '/ethco'
+			title: 'template',
+			link: '/landing-a'
 		},
 		{
 			title: 'Styleguide',
