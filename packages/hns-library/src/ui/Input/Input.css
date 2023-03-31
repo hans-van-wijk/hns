@@ -1,0 +1,8 @@
+.hns-input {
+  border: 1px solid var(--hns-input-border-color, lightGray);
+  padding-inline: var(--hns-box-padding-inline);
+  padding-block: var(--hns-box-padding-block);
+  font-size: inherit;
+  color: inherit;
+  width: 100%;
+}

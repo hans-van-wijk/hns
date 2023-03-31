@@ -1,0 +1,7 @@
+[data-theme="default-light"]  {
+  --hns-app-hue: 0;
+  --hns-app-background: hsl(0, 0%, 100%);
+  --hns-app-text-color: #222;
+  --hns-border-color-default: hsla(var(--hns-app-hue), 30%, 70%, .6);
+  --hns-panel-fill-default: #F5F5F2;
+}

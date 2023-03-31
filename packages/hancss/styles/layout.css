@@ -1,0 +1,41 @@
+/* Autobot
+ * Center a child element within
+ * it's bounding box.
+-------------------------------------- */
+.hns-l-autobot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--hns-gutter, 1.5rem);
+}
+
+.hns-split {
+  container: container / inline-size;
+}
+
+@container container (min-width: 75ch) {
+  .hns-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: var(--hns-gutter, 2.5rem);
+  }
+}
+
+.hns-split-rev > *:first-child {
+  grid-column: 2;
+}
+.hns-split-rev > *:last-child {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+
+
+
+/* .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  grid-gap: 1em;
+} */

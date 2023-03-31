@@ -1,0 +1,13 @@
+.hns-drawer {
+  padding: var(--hns-gutter);
+  background-color: var(--hns-panel-fill-default);
+  padding: var(--hns-gutter, 2.5rem);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow-y: auto;
+  width: 100%;
+  max-width: 290px;
+  z-index: 100;
+}

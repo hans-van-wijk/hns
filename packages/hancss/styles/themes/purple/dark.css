@@ -1,0 +1,12 @@
+[data-theme="purple-dark"]  {
+  --hns-app-hue: 246;
+  --hns-app-background: hsl(246, 85%, 13%);
+  --hns-app-text-color: #f1f1f1;
+  --hns-border-color-default: hsla(var(--hns-app-hue), 30%, 70%, .6);
+  --hns-panel-fill-default: hsl(246, 85%, 10%);
+}
+
+[data-theme="purple-dark"] .hns-button-cta {
+  --hns-button-background:rgb(255,203,244);
+  --hns-button-text-color: #0b053d;
+}

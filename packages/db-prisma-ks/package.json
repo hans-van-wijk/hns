@@ -1,0 +1,16 @@
+{
+  "name": "db-prisma-ks",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "version": "1.0.0",
+  "scripts": {
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push --skip-generate"
+  },
+  "dependencies": {
+    "@prisma/client": "latest"
+  },
+  "devDependencies": {
+    "prisma": "latest"
+  }
+}

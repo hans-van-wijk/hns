@@ -1,0 +1,6 @@
+:root {
+  /* Structure */
+  --hns-container-padding: min(4vw, 4rem);
+  --hns-box-padding-inline: 2rem;
+  --hns-box-padding-block: 1rem;
+}

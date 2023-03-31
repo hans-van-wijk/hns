@@ -1,0 +1,84 @@
+@import url(styles/typography.css);
+@import url(styles/layout.css);
+@import url(styles/tokens.css);
+@import url(styles/themes/typeThemes.css);
+
+/* Themes */
+@import url(styles/themes/default/light.css);
+@import url(styles/themes/default/dark.css);
+@import url(styles/themes/hns/dark.css);
+@import url(styles/themes/hns/light.css);
+@import url(styles/themes/purple/dark.css);
+@import url(styles/themes/purple/light.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--hns-app-background, #fff);
+  color: var(--hns-app-text-color, #222);
+  font-size: var(--hns-font-size, 100%);
+  line-height: var(--hns-line-height, 1.5);
+  font-family: var(--hns-text-font, sans-serif);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: min(max(16px, 2vw), 22px);
+}
+
+img,video,iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+  /* Modern smartphone */
+  aspect-ratio: 6/13; 
+  /* Medium format still camera / socials */
+  aspect-ratio: 6/6; 
+  /* Traditional tv & computer monitor standard */
+  aspect-ratio: 4/3; 
+  /* Classic 35mm still photographic film */
+  aspect-ratio: 3/2; 
+  /* Used to create an acceptable picture on both 4:3 and 16:9 televisions  */
+  aspect-ratio: 14/9; 
+  /* A common computer screen ratio */
+  aspect-ratio: 16/10; 
+  /* Golden ratio */
+  /* aspect-ratio: 1.6180/1;  */
+  /* Common European widescreen standard */
+  /* aspect-ratio: 5/3;  */
+  /* HD Video Standard */
+  /* aspect-ratio: 16/10; */
+  /* Widescreen cinema */
+  /* aspect-ratio: 1.85/1; */
+  /* A common US widescreen cinema standard */
+  /* aspect-ratio: 1.85/1; */
+  /* Current widescreen cinema standard */
+  /* aspect-ratio: 2.4/1; */
+
+
+
+
+
+  object-fit: cover;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: brightness(.8) contrast(1.2);
+  }
+}
+
+.hns-box-link {
+  display: inline-block;
+  border-radius: .25rem;
+  padding-inline: .5rem;
+  padding-block: .25rem;
+}
