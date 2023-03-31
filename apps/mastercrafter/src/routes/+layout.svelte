@@ -68,9 +68,12 @@
 			name: 'purple'
 		}
 	];
+
+	export let open = false;
 </script>
 
-<Drawer>
+<button class:open on:click={() => (open = !open)}>Menu</button>
+<Drawer {open}>
 	<Stack>
 		<Navlist items={navItems} />
 
