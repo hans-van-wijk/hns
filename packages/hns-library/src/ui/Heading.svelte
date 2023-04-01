@@ -21,7 +21,7 @@
 <svelte:element
   this={el}
   class={`hns-heading hns-scale-${scale}}`}
-  style={`font-size: ${remSize()}`}
+  style={`--hns-heading-max: ${remSize()}`}
 >
   {text}
 </svelte:element>
@@ -29,5 +29,6 @@
 <style>
   .hns-heading {
     line-height: 1.1;
+    font-size: clamp(16px, 1rem + 10vw, var(--hns-heading-max));
   }
 </style>
