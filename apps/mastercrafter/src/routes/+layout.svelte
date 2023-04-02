@@ -1,12 +1,9 @@
 <script lang="ts">
-	import { Heading, Drawer, Stack, Navlist } from 'hns-library';
+	import { Header, Heading, Drawer, Stack } from 'hns-library';
 	import { page } from '$app/stores';
 	import '../app.css';
 	import 'hancss/index.css';
 	import { enhance, type SubmitFunction } from '$app/forms';
-	import { Container } from 'hns-library';
-	import Section from 'hns-library/src/layout/Section.svelte';
-	import Header from 'hns-library/src/components/Header.svelte';
 
 	const submitUpdateTheme: SubmitFunction = ({ action }) => {
 		const theme = action.searchParams.get('theme');
@@ -42,10 +39,6 @@
 	];
 
 	const navItems = [
-		{
-			title: 'Home',
-			link: '/'
-		},
 		{
 			title: 'Template',
 			link: '/templates'
