@@ -41,15 +41,15 @@
 	const navItems = [
 		{
 			title: 'Template',
-			link: '/templates'
+			href: '/templates'
 		},
 		{
 			title: 'template',
-			link: '/landing-a'
+			href: '/landing-a'
 		},
 		{
 			title: 'Styleguide',
-			link: '/styleguide'
+			href: '/styleguide'
 		}
 	];
 
@@ -68,7 +68,7 @@
 	export let open = false;
 </script>
 
-<Header {navItems} contentWidth="contained" />
+<Header {navItems} containerWidth="contained" />
 
 <slot />
 

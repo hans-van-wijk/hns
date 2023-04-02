@@ -3,11 +3,11 @@
   import Stack from "../layout/Stack.svelte";
   import Navlist from "./Navlist/Navlist.svelte";
   export let navItems = [];
-  export let contentWidth = "";
+  export let containerWidth = "";
 </script>
 
 <header class="hns-header">
-  <Container width={contentWidth}>
+  <Container type={containerWidth}>
     <Stack layout="horizontal" justify="spread">
       <slot name="logo">
         <a href="/">

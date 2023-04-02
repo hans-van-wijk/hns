@@ -8,9 +8,9 @@
 {#if items.length > 0}
   <nav class="hns-nav-list">
     <Stack el="ul" {layout}>
-      {#each items as { title, link }}
+      {#each items as { title, href }}
         <li>
-          <a class="hns-box-link" href={link}>
+          <a class="hns-box-link" {href}>
             {title}
           </a>
         </li>
