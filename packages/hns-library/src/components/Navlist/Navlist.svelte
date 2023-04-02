@@ -1,11 +1,13 @@
 <script lang="ts">
   import "./Navlist.css";
+  import Stack from "../../layout/Stack.svelte";
+  export let layout = "vertical";
   export let items = [];
 </script>
 
 {#if items.length > 0}
   <nav class="hns-nav-list">
-    <ul>
+    <Stack el="ul" {layout}>
       {#each items as { title, link }}
         <li>
           <a class="hns-box-link" href={link}>
@@ -13,7 +15,6 @@
           </a>
         </li>
       {/each}
-      <li />
-    </ul>
+    </Stack>
   </nav>
 {/if}

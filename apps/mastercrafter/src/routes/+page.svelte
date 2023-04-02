@@ -2,11 +2,9 @@
 	import { Container, Heading, Stack, Hero, Section, Button } from 'hns-library';
 </script>
 
-<Hero title="Mastercrafter TS" type="contained" />
-
 <Section>
 	<Container type="contained">
-		<Heading el="h1" scale={6} text="Learn modern design fundamentals and 4x your design career." />
+		<Heading el="h1" scale={4} text="Learn modern design fundamentals and 4x your design career." />
 		<Stack>
 			<Button kind="cta">Get Started</Button>
 			<Button>Get Started</Button>

@@ -10,7 +10,7 @@
 <style>
   .hns-section {
     position: relative;
-    padding-block: var(--hns-row-spacing, 4rem);
+    padding-block: var(--hns-row-spacing, 2rem);
   }
 
   .hns-section-mediabg {

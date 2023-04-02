@@ -29,6 +29,6 @@
 <style>
   .hns-heading {
     line-height: 1.1;
-    font-size: clamp(16px, 1rem + 10vw, var(--hns-heading-max));
+    font-size: clamp(16px, 1rem + 9vw, var(--hns-heading-max));
   }
 </style>

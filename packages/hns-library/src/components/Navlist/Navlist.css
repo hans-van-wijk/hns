@@ -15,7 +15,6 @@
 .hns-nav-list a:hover {
   background-color: hsla(var(--hns-app-hue), 30%, 70%, .1);
   color: var(--hns-nav-list-hover-color);
-  padding-left: 1rem;
 }
 
 .hns-nav-list a:active {

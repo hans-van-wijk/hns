@@ -4,18 +4,21 @@
   export let scale: number = 1;
 
   const remSize = () => {
-    const sizesArray = Array.from({ length: scale });
-    if (sizesArray.length > 0) {
-      return 0;
-    } else {
-      return 16;
+    let value = scale - 1;
+    console.log(value);
+    if (scale > 1) {
+      for (var i = 0; i < scale; i++) {
+        value = value * 1.333;
+      }
     }
+
+    return Math.round(value * 100) / 100 + "rem";
   };
 </script>
 
 <svelte:element
   this={el}
-  class={`hns-heading hns-scale-${remSize()}`}
+  class={`hns-heading}`}
   style={scale > 1
     ? `font-size: calc(${scale} * 1.333rem)`
     : "font-size: 1rem;"}

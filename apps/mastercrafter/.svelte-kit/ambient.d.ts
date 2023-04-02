@@ -45,6 +45,7 @@ declare module '$env/static/private' {
 	export const npm_package_private: string;
 	export const npm_package_devDependencies__sveltejs_kit: string;
 	export const npm_config_registry: string;
+	export const npm_package_devDependencies_unplugin_icons: string;
 	export const USER: string;
 	export const npm_package_scripts_check_watch: string;
 	export const PNPM_SCRIPT_SRC_DIR: string;
@@ -135,6 +136,7 @@ declare module '$env/dynamic/private' {
 		npm_package_private: string;
 		npm_package_devDependencies__sveltejs_kit: string;
 		npm_config_registry: string;
+		npm_package_devDependencies_unplugin_icons: string;
 		USER: string;
 		npm_package_scripts_check_watch: string;
 		PNPM_SCRIPT_SRC_DIR: string;

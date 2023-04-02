@@ -4,6 +4,9 @@
 	import '../app.css';
 	import 'hancss/index.css';
 	import { enhance, type SubmitFunction } from '$app/forms';
+	import { Container } from 'hns-library';
+	import Section from 'hns-library/src/layout/Section.svelte';
+	import Header from 'hns-library/src/components/Header.svelte';
 
 	const submitUpdateTheme: SubmitFunction = ({ action }) => {
 		const theme = action.searchParams.get('theme');
@@ -72,11 +75,12 @@
 	export let open = false;
 </script>
 
-<button on:click={() => (open = !open)}>Menu</button>
+<Header {navItems} contentWidth="contained" />
+
+<slot />
+
 <Drawer bind:open>
 	<Stack>
-		<Navlist items={navItems} />
-
 		<form class="style-switcher" method="POST" use:enhance={submitUpdateTheme}>
 			<Stack>
 				<Heading el="p" scale={1} text="Color" />
@@ -111,4 +115,12 @@
 	</Stack>
 </Drawer>
 
-<slot />
+<button class="settings" on:click={() => (open = !open)}>Settings</button>
+
+<style>
+	.settings {
+		position: fixed;
+		left: 2rem;
+		bottom: 2rem;
+	}
+</style>
