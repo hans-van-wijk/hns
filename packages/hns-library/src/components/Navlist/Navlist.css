@@ -1,3 +1,8 @@
+.hns-nav-list {
+  max-width: 100%;
+  overflow: scroll;
+}
+
 .hns-nav-list ul {
   list-style: none;
   color: inherit;
