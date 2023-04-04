@@ -1,6 +1,10 @@
 :root {
   /* Structure */
+  --hns-gutter: 2rem;
   --hns-container-padding: min(4vw, 4rem);
   --hns-box-padding-inline: 2rem;
   --hns-box-padding-block: 1rem;
+  --hns-section-spacing: 2rem;
+  --hns-section-page-spacing: 8rem;
+  --hns-stack-spacing-small: calc(var(--hns-gutter) / 4);
 }

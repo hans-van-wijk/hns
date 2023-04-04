@@ -1,9 +1,11 @@
 <script lang="ts">
-	import { Header, Heading, Drawer, Stack } from 'hns-library';
+	import { HnsRadio, HnsRadioGroup, Header, Heading, Drawer, Stack } from 'hns-library';
 	import { page } from '$app/stores';
 	import '../app.css';
 	import 'hancss/index.css';
 	import { enhance, type SubmitFunction } from '$app/forms';
+
+	export let themeValue = '';
 
 	const submitUpdateTheme: SubmitFunction = ({ action }) => {
 		const theme = action.searchParams.get('theme');
@@ -74,6 +76,11 @@
 
 <Drawer bind:open>
 	<Stack>
+		<HnsRadioGroup bind:themeValue label="Radio group legend">
+			<HnsRadio label="Label 1" value="1" />
+			<HnsRadio label="Label 2" value="2" />
+			<HnsRadio label="Label 3" value="3" />
+		</HnsRadioGroup>
 		<form class="style-switcher" method="POST" use:enhance={submitUpdateTheme}>
 			<Stack>
 				<Heading el="p" scale={1} text="Color" />

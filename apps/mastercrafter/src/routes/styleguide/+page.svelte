@@ -3,6 +3,10 @@
 	import Token from '$lib/components/Token.svelte';
 </script>
 
+<svelte:head>
+	<title>Styleguide | Wireframer</title>
+</svelte:head>
+
 <Hero title="Tokens" type="contained" />
 
 <Container type="contained">

@@ -2,10 +2,19 @@
 	import { Container, Heading, Stack, Hero, Section, Button } from 'hns-library';
 </script>
 
-<Section>
+<svelte:head>
+	<title>Wireframer | Home</title>
+</svelte:head>
+
+<Section spacing="page">
 	<Container type="contained">
-		<Heading el="h1" scale={4} text="Learn modern design fundamentals and 4x your design career." />
 		<Stack>
+			<Heading
+				el="h1"
+				scale={4}
+				text="Learn modern design fundamentals and 4x your design career."
+			/>
+
 			<Button kind="cta">Get Started</Button>
 			<Button>Get Started</Button>
 			<div>Haha</div>

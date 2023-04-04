@@ -4,4 +4,8 @@
   --hns-app-text-color: #222;
   --hns-border-color-default: hsla(var(--hns-app-hue), 30%, 70%, .6);
   --hns-panel-fill-default: #F5F5F2;
+
+  /* Block styles */
+  --hns-block-background: #f2f2f2;
 }
+

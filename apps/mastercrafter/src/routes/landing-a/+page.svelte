@@ -16,6 +16,10 @@
 	} from 'hns-library';
 </script>
 
+<svelte:head>
+	<title>Landing a | Wireframer</title>
+</svelte:head>
+
 <Stack>
 	<VideoBg url="home-bg-NV2HXGUL.mp4">
 		<div style="--hns-heading-color: #fff">

@@ -3,35 +3,40 @@
 	import { Card, Carrousel, Container, Hero, Split, Stack, Text } from 'hns-library';
 </script>
 
+<svelte:head>
+	<title>Template a | Wireframer</title>
+</svelte:head>
+
 <Hero headingSize={4} type="contained" title="Marketing solutions for startups" />
 
 <Container type="contained">
-	<Card>
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-	</Card>
+	<Stack spacing="row">
+		<Card>
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+		</Card>
 
-	<Carrousel>
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-	</Carrousel>
+		<Carrousel>
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+		</Carrousel>
 
-	<Carrousel>
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-		<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
-	</Carrousel>
-
+		<Carrousel>
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+			<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
+		</Carrousel>
+	</Stack>
 	<Stack>
 		<Split>
 			<div slot="first">

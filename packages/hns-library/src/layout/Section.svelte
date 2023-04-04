@@ -1,4 +1,12 @@
-<div class="hns-section">
+<script lang="ts">
+  export let spacing = "";
+</script>
+
+<div
+  class="hns-section"
+  class:hns-section-spacing-page={spacing === "page"}
+  class:hns-section-spacing-small={spacing === "small"}
+>
   {#if $$slots.mediabg}
     <div class="hns-section-mediabg">
       <slot name="mediabg" />
@@ -11,6 +19,10 @@
   .hns-section {
     position: relative;
     padding-block: var(--hns-row-spacing, 2rem);
+  }
+
+  .hns-section-spacing-page {
+    padding-block: var(--hns-section-page-spacing, 4rem);
   }
 
   .hns-section-mediabg {

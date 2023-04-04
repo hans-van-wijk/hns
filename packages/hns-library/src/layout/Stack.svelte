@@ -34,4 +34,7 @@
   .hns-stack-spacing-row {
     gap: var(--hns-row-spacing, 10rem);
   }
+  .hns-stack-spacing-small {
+    gap: var(--hns-stack-spacing-small, 1rem);
+  }
 </style>
