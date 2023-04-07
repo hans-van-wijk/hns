@@ -1,7 +1,5 @@
 <script lang="ts">
   // Based on https://github.com/abosch19/svelte-fast-marquee/blob/main/src/Marquee.svelte
-  export let pauseOnHover = false;
-  export let speed = 100;
 </script>
 
 <div class="hns-logo-bar">
