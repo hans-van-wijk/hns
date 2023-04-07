@@ -7,7 +7,7 @@
 
   const remSize = () => {
     let value = scale - 1;
-    console.log(value);
+    // console.log(value);
     if (scale > 1) {
       for (var i = 0; i < scale; i++) {
         value = value * 1.333;

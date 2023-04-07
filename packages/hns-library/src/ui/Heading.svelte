@@ -9,11 +9,11 @@
     if (scale > 1) {
       value--;
       for (var i = 1; i < scale; i++) {
-        console.log(i);
+        // console.log(i);
         value = value * ratio;
       }
     }
-    console.log(value);
+    // console.log(value);
     return Math.round(value * 100) / 100 + "rem";
   };
 </script>
