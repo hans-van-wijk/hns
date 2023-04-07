@@ -1,5 +1,6 @@
 <script lang="ts">
-  import "./Button.css";
+  import "hancss/styles/button.css";
+
   /**
    * Kind of button
    * @type {"neutral", "cta"}

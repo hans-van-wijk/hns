@@ -24,3 +24,6 @@ export { default as Navlist } from './src/components/Navlist/Navlist.svelte';
 
 export { default as HnsRadio } from './src/ui/HnsRadio/HnsRadio.svelte';
 export { default as HnsRadioGroup } from './src/ui/HnsRadio/HnsRadioGroup.svelte';
+
+// Effects
+export { default as Logobar } from './src/components/Logobar.svelte';

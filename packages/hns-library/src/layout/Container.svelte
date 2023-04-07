@@ -1,9 +1,11 @@
 <script lang="ts">
-  export let type: string = "";
+  export let type = "";
+  export let padded = false;
 </script>
 
 <div
   class="hns-container"
+  class:hns-container--padded={padded}
   class:hns-container-content={type === "content"}
   class:hns-container-contained={type === "contained"}
 >
@@ -12,11 +14,14 @@
 
 <style>
   .hns-container {
-    padding-inline: var(--hns-container-padding);
     margin-inline: auto;
     /* outline: 1px solid red; */
     container: container / inline-size;
     width: 100%;
+  }
+
+  .hns-container--padded {
+    padding-inline: var(--hns-container-padding);
   }
 
   .hns-container-content {

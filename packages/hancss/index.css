@@ -11,8 +11,10 @@
 @import url(styles/themes/purple/dark.css);
 @import url(styles/themes/purple/light.css);
 
-/* UI */
-@import url(styles/button.css);
+
+.hns-display-block {
+  display: block;
+}
 
 *,
 *::before,
