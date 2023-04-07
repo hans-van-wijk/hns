@@ -25,7 +25,7 @@
     flex-direction: row;
   }
   .hns-stack-center {
-    justify-content: center;
+    align-items: center;
   }
   .hns-stack-spread {
     justify-content: space-between;

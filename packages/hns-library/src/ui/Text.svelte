@@ -27,5 +27,6 @@
     ? `font-size: calc(${scale} * 1.333rem)`
     : "font-size: 1rem;"}
 >
+  <slot />
   {text}
 </svelte:element>

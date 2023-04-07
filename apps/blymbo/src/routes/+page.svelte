@@ -15,7 +15,6 @@
 
 <Section>
 	<Container type="contained" padded>
-		<IconCard />
 		<Hero title="Increase your sales with Blymbo Digital Agency" />
 		<Stack spacing="row">
 			<Stack>
@@ -48,6 +47,14 @@
 				<Logo9 />
 				<Logo10 />
 			</Logobar>
+			<Split>
+				<div slot="first">
+					<IconCard title="title" description="description" />
+				</div>
+				<div slot="second">
+					<IconCard title="title" description="description" />
+				</div>
+			</Split>
 		</Stack>
 	</Container>
 </Section>
