@@ -43,7 +43,7 @@
       rgba(255, 255, 255, 0) 100%
     );
     z-index: 1;
-    mouse-pointer-events: none;
+    /* mouse-pointer-events: none; */
   }
 
   .hns-logo-bar::before {
