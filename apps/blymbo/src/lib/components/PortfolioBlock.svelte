@@ -6,7 +6,7 @@
 </script>
 
 <Stack spacing="small">
-	<Image {src} />
+	<Image ratio="horizontal" {src} />
 	<Text text={title} contrast />
 	<Text text={description} />
 	<Button>View project</Button>
