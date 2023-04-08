@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { Section, Container, Split, Stack, Image, Text, Heading, Button } from 'hns-library';
 	import IconCard from '$lib/components/IconCard.svelte';
-	import studio from '$lib/images/studio.png';
+	/* @ts-ignore */
+	import studio from '$lib/images/studio.png?width=1344;672;336&format=webp&srcset';
 </script>
 
 <Section>

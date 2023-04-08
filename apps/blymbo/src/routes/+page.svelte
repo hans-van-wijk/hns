@@ -21,12 +21,6 @@
 
 <Section>
 	<Container type="contained" padded>
-		<picture>
-			<source srcset={studio} type="image/webp" />
-			<source srcset={studio} type="image/jpeg" />
-			<img width="1300" class="lazy" alt="studio" loading="eager" decoding="async" src={studio} />
-		</picture>
-
 		<Hero title="Increase your sales with Blymbo Digital Agency" />
 		<Stack spacing="row">
 			<Stack>
