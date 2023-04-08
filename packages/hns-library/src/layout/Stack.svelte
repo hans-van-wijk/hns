@@ -3,12 +3,13 @@
   export let spacing = "gutter";
   export let layout = "vertical";
   export let justify = "";
+  export let spread = false;
 </script>
 
 <svelte:element
   this={el}
+  class:hns-stack-spread={spread}
   class:hns-stack-center={justify === "center"}
-  class:hns-stack-spread={justify === "spread"}
   class={`hns-stack hns-stack-spacing-${spacing} 
   hns-stack-${layout}`}
 >

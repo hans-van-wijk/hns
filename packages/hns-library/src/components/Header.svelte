@@ -8,7 +8,7 @@
 
 <header class="hns-header">
   <Container type={containerWidth}>
-    <Stack layout="horizontal" justify="spread">
+    <Stack layout="horizontal" spread>
       <slot name="logo">
         <a href="/">
           <svg
