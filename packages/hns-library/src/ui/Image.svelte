@@ -9,9 +9,18 @@
   export let src = `https://via.placeholder.com/${width}x${height}?text=IMG`;
 </script>
 
-<div class={`hns-image-container hns-ar-${ratio}`}>
-  <img class="hns-image" alt="Placeholder" {src} />
-</div>
+<picture class="hns-image-container">
+  <source srcset={src} type="image/webp" />
+  <source srcset={src} type="image/jpeg" />
+  <img
+    width="1300"
+    class="lazy hns-image"
+    alt="studio"
+    loading="eager"
+    decoding="async"
+    {src}
+  />
+</picture>
 
 <style>
   .hns-image {
