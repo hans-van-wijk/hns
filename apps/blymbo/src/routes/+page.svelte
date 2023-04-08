@@ -4,9 +4,12 @@
 	import project2 from '$lib/images/project-2.png';
 	import project3 from '$lib/images/project-3.png';
 	import project4 from '$lib/images/project-4.png';
+	// @ts-ignore
+	import studio from '$lib/images/studio.png?width=1344;672;336&format=webp&srcset';
 	import { Logo1, Logo2, Logo3, Logo4, Logo5, Logo6, Logo7, Logo8, Logo9, Logo10 } from 'logoipsum';
 	import PortfolioBlock from '$lib/components/PortfolioBlock.svelte';
 	import IconCard from '$lib/components/IconCard.svelte';
+	const sizes = '(max-width: 1300px) calc(100vw - 32px), 1300px';
 </script>
 
 <svelte:head>
@@ -15,6 +18,12 @@
 
 <Section>
 	<Container type="contained" padded>
+		<picture>
+			<source {sizes} srcset={studio} type="image/webp" />
+			<source {sizes} srcset={studio} type="image/jpeg" />
+			<img width="1300" class="lazy" alt="studio" loading="eager" decoding="async" src={studio} />
+		</picture>
+
 		<Hero title="Increase your sales with Blymbo Digital Agency" />
 		<Stack spacing="row">
 			<Stack>
@@ -66,3 +75,13 @@
 		</Stack>
 	</Container>
 </Section>
+
+<style>
+	picture {
+		display: block;
+	}
+	img {
+		width: 100%;
+		max-width: 100%;
+	}
+</style>
