@@ -1,15 +1,19 @@
 <script lang="ts">
 	import { Card, Text, Stack } from 'hns-library';
 	import Icon from '@iconify/svelte';
+	export let icon = '';
 	export let title = '';
 	export let description = '';
 </script>
 
 <Card>
 	<Stack spacing="small" justify="center">
-		<div class="icon">
-			<Icon icon="feather:activity" />
-		</div>
+		{#if icon !== ''}
+			<div class="icon">
+				<Icon icon={`feather:${icon}`} />
+			</div>
+		{/if}
+
 		{#if title}
 			<Text el="h3" text={title} />
 		{/if}

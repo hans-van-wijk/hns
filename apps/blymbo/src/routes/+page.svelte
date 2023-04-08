@@ -49,10 +49,18 @@
 			</Logobar>
 			<Split>
 				<div slot="first">
-					<IconCard title="title" description="description" />
+					<IconCard
+						title="Service type #1"
+						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien vel faucibus bibendum. Curabitur sit amet nisi lobortis, placerat urna sed, porta leo."
+						icon="edit"
+					/>
 				</div>
 				<div slot="second">
-					<IconCard title="title" description="description" />
+					<IconCard
+						title="Service type #2"
+						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien vel faucibus bibendum. Curabitur sit amet nisi lobortis, placerat urna sed, porta leo."
+						icon="activity"
+					/>
 				</div>
 			</Split>
 		</Stack>

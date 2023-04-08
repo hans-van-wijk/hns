@@ -26,6 +26,7 @@
   }
   .hns-stack-center {
     align-items: center;
+    text-align: center;
   }
   .hns-stack-spread {
     justify-content: space-between;
