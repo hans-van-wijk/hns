@@ -4,6 +4,10 @@
 
 	const navItems = [
 		{
+			title: 'About',
+			href: '/about'
+		},
+		{
 			title: 'Portfolio',
 			href: '/portfolio'
 		},

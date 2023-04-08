@@ -9,11 +9,16 @@
   export let src = `https://via.placeholder.com/${width}x${height}?text=IMG`;
 </script>
 
-<img class={`hns-ar-${ratio}`} alt="Placeholder" {src} />
+<div class={`hns-image-container hns-ar-${ratio}`}>
+  <img class="hns-image" alt="Placeholder" {src} />
+</div>
 
 <style>
-  img {
+  .hns-image {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    display: block;
   }
   .hns-ar-panoramic {
     aspect-ratio: 16/9;
@@ -24,7 +29,8 @@
   .hns-ar-square {
     aspect-ratio: 1/1;
   }
-  .hns-ar-horizontal {
+  .hns-ar-horizontal,
+  .hns-image {
     aspect-ratio: 4/3;
   }
   .hns-ar-portrait {
