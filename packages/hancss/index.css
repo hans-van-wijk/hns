@@ -87,3 +87,8 @@ img,video,iframe {
   padding-inline: .5rem;
   padding-block: .25rem;
 }
+
+.hns-align-content-center {
+  display: flex;
+  align-content: center;
+}

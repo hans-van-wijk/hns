@@ -27,3 +27,4 @@ export { default as HnsRadioGroup } from './src/ui/HnsRadio/HnsRadioGroup.svelte
 
 // Effects
 export { default as Logobar } from './src/components/Logobar.svelte';
+export { default as Transition } from './src/effects/Transition.svelte';

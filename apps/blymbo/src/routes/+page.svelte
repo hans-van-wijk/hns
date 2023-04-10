@@ -21,7 +21,7 @@
 
 <Section>
 	<Container type="contained" padded>
-		<Hero title="Increase your sales with Blymbo Digital Agency" />
+		<Hero alignContent="center" title="Increase your sales with Blymbo Digital Agency" />
 		<Stack spacing="row">
 			<Stack>
 				<Split>

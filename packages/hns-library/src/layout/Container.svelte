@@ -1,6 +1,7 @@
 <script lang="ts">
   export let type = "";
   export let padded = false;
+  export let alignContent = "";
 </script>
 
 <div
