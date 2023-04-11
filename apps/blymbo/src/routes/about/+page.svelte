@@ -2,7 +2,7 @@
 	import { Section, Container, Split, Stack, Image, Text, Heading, Button } from 'hns-library';
 	import IconCard from '$lib/components/IconCard.svelte';
 	/* @ts-ignore */
-	import studio from '$lib/images/studio.png?width=1344;672;336&format=webp&srcset';
+	import studio from '$lib/images/studio.png?fullwidth';
 </script>
 
 <Section>
