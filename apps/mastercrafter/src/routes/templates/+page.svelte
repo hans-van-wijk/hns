@@ -9,7 +9,7 @@
 
 <Hero headingSize={4} type="contained" title="Marketing solutions for startups" />
 
-<Container type="contained">
+<Container type="contained" padded>
 	<Stack spacing="row">
 		<Card>
 			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />

@@ -7,7 +7,7 @@
 </svelte:head>
 
 <Section spacing="page">
-	<Container type="contained">
+	<Container type="contained" padded>
 		<Stack>
 			<Heading
 				el="h1"

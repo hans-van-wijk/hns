@@ -8,7 +8,7 @@
 <Section>
 	<Container type="contained" padded>
 		<Stack spacing="row">
-			<Image src={studio} ratio="panorama" />
+			<Image src={studio} ratio="" />
 			<Container type="content">
 				<Stack>
 					<Text

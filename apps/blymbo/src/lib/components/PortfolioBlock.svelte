@@ -3,11 +3,25 @@
 	export let src = '';
 	export let title = '';
 	export let description = '';
+	export let link = '';
 </script>
 
-<Stack spacing="small">
-	<Image ratio="horizontal" {src} />
-	<Text text={title} contrast />
-	<Text text={description} />
-	<Button>View project</Button>
-</Stack>
+<div class="portfolio-block">
+	{#if link}
+		<a href={link}>
+			<Stack spacing="small">
+				<Image ratio="horizontal" {src} />
+				<Text text={title} contrast />
+				<Text text={description} />
+				<Button>View project</Button>
+			</Stack>
+		</a>
+	{:else}
+		<Stack>
+			<Image ratio="horizontal" {src} />
+			<Text text={title} contrast />
+			<Text text={description} />
+			<Button>View project</Button>
+		</Stack>
+	{/if}
+</div>

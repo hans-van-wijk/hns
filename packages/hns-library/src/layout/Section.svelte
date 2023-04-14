@@ -1,9 +1,11 @@
 <script lang="ts">
+  export let el = "section";
   export let spacing = "";
 </script>
 
-<div
-  class="hns-section"
+<svelte:element
+  this={el}
+  class={`hns-section ${$$props.class}`}
   class:hns-section-spacing-page={spacing === "page"}
   class:hns-section-spacing-small={spacing === "small"}
 >
@@ -13,7 +15,7 @@
     </div>
   {/if}
   <slot />
-</div>
+</svelte:element>
 
 <style>
   .hns-section {

@@ -1,7 +1,6 @@
 <script lang="ts">
   export let type = "";
   export let padded = false;
-  export let alignContent = "";
 </script>
 
 <div
@@ -26,7 +25,7 @@
   }
 
   .hns-container-content {
-    max-width: var(--hns-container-content-width, 55ch);
+    max-width: var(--hns-container-content-width, 60ch);
   }
 
   .hns-container-contained {

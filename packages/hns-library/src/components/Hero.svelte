@@ -5,11 +5,10 @@
   export let title: string = "";
   export let subtitle: string = "";
   export let headingSize: number = 3;
-  export let alignContent: string = "center";
 </script>
 
 <div class="hero">
-  <Container {alignContent} {type}>
+  <Container {type} padded>
     {#if title}
       <Heading el="h1" text={title} scale={headingSize} />
     {/if}
@@ -23,7 +22,7 @@
 <style>
   .hero {
     padding-block: clamp(1rem, 1rem + 5vw, 5rem);
-    aspect-ratio: 16/9;
+    /* aspect-ratio: 16/9; */
     display: flex;
     align-items: center;
   }

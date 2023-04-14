@@ -1,15 +1,11 @@
 <script lang="ts">
   export let width = 600;
   export let height = 400;
-  // Panoramic (16:9) | Vertical (9:16) | Square (1:1) | Horizontal (4:3) | Portrait (3:4)
-  /**
-   * @type {"panoramic" | "vertical" | "square" | "horizontal" | "portrait"}
-   */
   export let ratio = "panoramic";
   export let src = `https://via.placeholder.com/${width}x${height}?text=IMG`;
 </script>
 
-<picture class="hns-image-container">
+<picture class={`hns-image-container hns-ar-${ratio}`}>
   <source srcset={src} type="image/webp" />
   <source srcset={src} type="image/jpeg" />
   <img

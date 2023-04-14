@@ -12,6 +12,7 @@ export { default as Stack } from './src/layout/Stack.svelte';
 export { default as Split } from './src/layout/Split.svelte';
 export { default as CollectionGrid } from './src/layout/CollectionGrid.svelte';
 export { default as Drawer } from './src/components/Drawer/Drawer.svelte';
+export { default as Grid } from './src/layout/Grid.svelte';
 
 // MACRO COMPONENTS
 export { default as Header } from './src/components/Header.svelte';

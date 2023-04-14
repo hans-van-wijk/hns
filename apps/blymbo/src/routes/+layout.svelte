@@ -1,9 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
-
 	import 'hancss/index.css';
-	import { Transition, Header, Container, Stack, Text } from 'hns-library';
-	import Section from 'hns-library/src/layout/Section.svelte';
+	import { Footer, Transition, Header, Container } from 'hns-library';
 
 	const navItems = [
 		{
@@ -27,18 +25,23 @@
 	export let data: PageData;
 </script>
 
-<Container type="contained" padded>
-	<Header {navItems} />
-</Container>
-
-<Transition key={data.url} duration={600}>
-	<slot />
-</Transition>
-<Section>
+<div class="hns">
 	<Container type="contained" padded>
-		<Stack layout="horizontal" spread>
-			<Text scale={1.2} text="Blymbo" contrast />
-			<Text text="about" />
-		</Stack>
+		<Header {navItems} />
 	</Container>
-</Section>
+
+	<Transition key={data.url} duration={600}>
+		<slot />
+	</Transition>
+
+	<Footer />
+</div>
+
+<style>
+	.hns {
+		min-height: 100vh;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+</style>
