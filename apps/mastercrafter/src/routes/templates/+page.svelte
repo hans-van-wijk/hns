@@ -16,14 +16,54 @@
 		</Card>
 
 		<Carrousel>
-			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
-			<SplitImage title="Marketing solutions for startups" subtitle="Product Design & Web Design" />
+			<Card
+				><SplitImage
+					title="Marketing solutions for startups"
+					subtitle="Product Design & Web Design"
+				/></Card
+			>
+			<Card
+				><SplitImage
+					title="Marketing solutions for startups"
+					subtitle="Product Design & Web Design"
+				/></Card
+			>
+			<Card
+				><SplitImage
+					title="Marketing solutions for startups"
+					subtitle="Product Design & Web Design"
+				/></Card
+			>
+			<Card
+				><SplitImage
+					title="Marketing solutions for startups"
+					subtitle="Product Design & Web Design"
+				/></Card
+			>
+			<Card
+				><SplitImage
+					title="Marketing solutions for startups"
+					subtitle="Product Design & Web Design"
+				/></Card
+			>
+			<Card
+				><SplitImage
+					title="Marketing solutions for startups"
+					subtitle="Product Design & Web Design"
+				/></Card
+			>
+			<Card
+				><SplitImage
+					title="Marketing solutions for startups"
+					subtitle="Product Design & Web Design"
+				/></Card
+			>
+			<Card
+				><SplitImage
+					title="Marketing solutions for startups"
+					subtitle="Product Design & Web Design"
+				/></Card
+			>
 		</Carrousel>
 
 		<Carrousel>
@@ -36,8 +76,7 @@
 			<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
 			<SplitImage title="Marketing solutions for startups" subtitle="Product Design – Web Design" />
 		</Carrousel>
-	</Stack>
-	<Stack>
+
 		<Split>
 			<div slot="first">
 				<SplitImage

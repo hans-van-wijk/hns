@@ -12,7 +12,7 @@
 			<Container type="content">
 				<Stack>
 					<Text
-						scale={1.3}
+						scale={1.1}
 						text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien vel faucibus bibendum. Curabitur sit amet nisi lobortis, placerat urna sed, porta leo. In nec condimentum lorem, non malesuada libero. Ut tincidunt mi nec eros pharetra tristique. Suspendisse potenti. Mauris porttitor, libero suscipit viverra aliquet,"
 					/>
 					<Text

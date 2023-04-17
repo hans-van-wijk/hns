@@ -24,7 +24,7 @@
 
 html {
   background-color: var(--hns-app-background, #fff);
-  color: var(--hns-app-text-color, #222);
+  color: var(--hns-app-text-color, #444);
   font-size: var(--hns-font-size, 100%);
   line-height: var(--hns-line-height, 1.5);
   font-family: var(--hns-text-font, sans-serif);
@@ -95,4 +95,10 @@ img,video,iframe {
 
 .hns-footer {
   margin-top: auto;
+}
+
+
+.hns-footer {
+  padding-block: var(--hns-padding-block, 1rem);
+  border-top: 1px solid #d9d9d9;
 }

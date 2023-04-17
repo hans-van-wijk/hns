@@ -6,7 +6,7 @@
 
 <style>
   .hns-carrousel {
-    --column-size: 55ch;
+    --column-size: 35ch;
     overflow-x: scroll;
     overscroll-behavior-inline: contain;
     scroll-snap-type: x mandatory;
@@ -15,11 +15,12 @@
     display: grid;
     grid-auto-flow: column;
     gap: 2.5rem;
-    margin-bottom: 160px;
   }
 
   :global(.hns-carrousel > *) {
     width: var(--column-size);
+    scroll-snap-align: start;
+
     max-width: calc(100vw - 7.5rem);
   }
 </style>

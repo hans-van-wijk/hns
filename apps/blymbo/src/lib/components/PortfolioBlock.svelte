@@ -10,7 +10,7 @@
 	{#if link}
 		<a href={link}>
 			<Stack spacing="small">
-				<Image ratio="horizontal" {src} />
+				<Image {src} />
 				<Text text={title} contrast />
 				<Text text={description} />
 				<Button>View project</Button>

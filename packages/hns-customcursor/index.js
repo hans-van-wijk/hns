@@ -1,0 +1,1 @@
+export { default as HnsCustomCursor } from './src/HnsCustomCursor.svelte';

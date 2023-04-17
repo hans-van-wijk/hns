@@ -34,6 +34,7 @@
 	"type": "module",
 	"dependencies": {
 		"hancss": "workspace:^1.0.0",
+		"hns-customcursor": "workspace:^1.0.0",
 		"hns-library": "workspace:^1.0.0",
 		"logoipsum": "workspace:^1.0.0"
 	}
