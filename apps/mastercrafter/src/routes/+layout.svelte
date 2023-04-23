@@ -83,7 +83,7 @@
 		</HnsRadioGroup>
 		<form class="style-switcher" method="POST" use:enhance={submitUpdateTheme}>
 			<Stack>
-				<Heading el="p" scale={1} text="Color" />
+				<Heading el="p" scale={1}>Color</Heading>
 				{#if themes.length > 0}
 					<ul>
 						{#each themes as { name }}
@@ -100,7 +100,7 @@
 						{/each}
 					</ul>
 				{/if}
-				<Heading el="p" scale={1} text="Type" />
+				<Heading el="p" scale={1}>Type</Heading>
 				<ul>
 					{#each fontlist as font}
 						<li>

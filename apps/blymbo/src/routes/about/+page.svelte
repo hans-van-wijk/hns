@@ -8,16 +8,21 @@
 <Section>
 	<Container type="contained" padded>
 		<Stack spacing="row">
-			<Image src={studio} ratio="" />
+			<Image src={studio} ratio="ultrawide" />
 			<Container type="content">
 				<Stack>
+					<Text scale={1.1}
+						>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien vel
+						faucibus bibendum. Curabitur sit amet nisi lobortis, placerat urna sed, porta leo. In
+						nec condimentum lorem, non malesuada libero. Ut tincidunt mi nec eros pharetra
+						tristique. Suspendisse potenti. Mauris porttitor, libero suscipit viverra aliquet</Text
+					>
 					<Text
-						scale={1.1}
-						text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien vel faucibus bibendum. Curabitur sit amet nisi lobortis, placerat urna sed, porta leo. In nec condimentum lorem, non malesuada libero. Ut tincidunt mi nec eros pharetra tristique. Suspendisse potenti. Mauris porttitor, libero suscipit viverra aliquet,"
-					/>
-					<Text
-						text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien vel faucibus bibendum. Curabitur sit amet nisi lobortis, placerat urna sed, porta leo. In nec condimentum lorem, non malesuada libero. Ut tincidunt mi nec eros pharetra tristique. Suspendisse potenti. Mauris porttitor, libero suscipit viverra aliquet,"
-					/>
+						>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien vel
+						faucibus bibendum. Curabitur sit amet nisi lobortis, placerat urna sed, porta leo. In
+						nec condimentum lorem, non malesuada libero. Ut tincidunt mi nec eros pharetra
+						tristique. Suspendisse potenti. Mauris porttitor, libero suscipit viverra aliquet</Text
+					>
 				</Stack>
 			</Container>
 			<Split>
@@ -29,7 +34,7 @@
 				</div>
 			</Split>
 			<Stack>
-				<Heading scale={2.5} text="Our values" />
+				<Heading scale={2.5}>Our values</Heading>
 				<Split>
 					<div slot="first">
 						<IconCard
@@ -48,7 +53,7 @@
 				</Split>
 			</Stack>
 			<Stack>
-				<Heading scale={2.5} text="Ready to get started?" />
+				<Heading scale={2.5}>Ready to get started?</Heading>
 				<Button>Call us</Button>
 			</Stack>
 		</Stack>

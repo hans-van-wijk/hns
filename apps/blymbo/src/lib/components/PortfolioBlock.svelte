@@ -11,16 +11,16 @@
 		<a href={link}>
 			<Stack spacing="small">
 				<Image {src} />
-				<Text text={title} contrast />
-				<Text text={description} />
+				<Text contrast>{title}</Text>
+				<Text>{description}</Text>
 				<Button>View project</Button>
 			</Stack>
 		</a>
 	{:else}
 		<Stack>
 			<Image ratio="horizontal" {src} />
-			<Text text={title} contrast />
-			<Text text={description} />
+			<Text contrast>{title}</Text>
+			<Text>{description}</Text>
 			<Button>View project</Button>
 		</Stack>
 	{/if}

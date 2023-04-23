@@ -13,6 +13,6 @@
   export let size = "normal";
 </script>
 
-<a href="/" class="hns-button hns-button-{kind} hns-button-{size}">
+<a on:click href="/" class="hns-button hns-button-{kind} hns-button-{size}">
   <slot />
 </a>

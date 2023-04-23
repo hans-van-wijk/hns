@@ -15,10 +15,10 @@
 		{/if}
 
 		{#if title}
-			<Text el="h3" text={title} />
+			<Text el="h3">{title}</Text>
 		{/if}
 		{#if description}
-			<Text el="p" text={description} />
+			<Text el="p">{description}</Text>
 		{/if}
 		<slot />
 	</Stack>

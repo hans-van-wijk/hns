@@ -23,6 +23,7 @@ export { default as Card } from './src/components/Card.svelte';
 export { default as VideoBg } from './src/components/VideoBg.svelte';
 export { default as Navlist } from './src/components/Navlist/Navlist.svelte';
 export { default as Tooltip } from './src/components/Tooltip.svelte';
+export { default as Cover } from './src/components/Cover.svelte';
 
 export { default as HnsRadio } from './src/ui/HnsRadio/HnsRadio.svelte';
 export { default as HnsRadioGroup } from './src/ui/HnsRadio/HnsRadioGroup.svelte';

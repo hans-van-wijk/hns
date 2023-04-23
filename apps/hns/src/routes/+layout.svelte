@@ -31,6 +31,6 @@
 	</div>
 </Header>
 
-<Section>
+<Section el="main" class="hns-main">
 	<slot />
 </Section>

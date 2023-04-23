@@ -25,7 +25,8 @@
     object-fit: cover;
     display: block;
   }
-  .hns-ar-panoramic {
+  .hns-ar-panoramic,
+  .hns-image {
     aspect-ratio: 16/9;
   }
   .hns-ar-vertical {
@@ -34,11 +35,13 @@
   .hns-ar-square {
     aspect-ratio: 1/1;
   }
-  .hns-ar-horizontal,
-  .hns-image {
+  .hns-ar-horizontal {
     aspect-ratio: 4/3;
   }
   .hns-ar-portrait {
     aspect-ratio: 3/4;
+  }
+  .hns-ar-ultrawide {
+    aspect-ratio: 21/9;
   }
 </style>

@@ -81,6 +81,10 @@
 
 <style>
   .hns-header {
+    position: sticky;
+    background-color: white;
+    z-index: 10;
+    top: 0;
     padding-block: var(--hns-padding-block, 1rem);
     border-bottom: 1px solid #d9d9d9;
   }

@@ -18,6 +18,10 @@
 			href: '/blog'
 		},
 		{
+			title: 'Products',
+			href: '/products'
+		},
+		{
 			title: 'Contact',
 			href: '/contact'
 		}

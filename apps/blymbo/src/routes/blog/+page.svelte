@@ -1,20 +1,28 @@
 <script lang="ts">
-	import { Section, Hero, Container, Split, Image, Text } from 'hns-library';
+	import { Section, Hero, Container, Split, Image, Text, Heading } from 'hns-library';
+	import type { PageData } from './types';
+	import Stack from 'hns-library/src/layout/Stack.svelte';
+	export let data: PageData;
 </script>
 
 <Section>
 	<Container type="contained" padded>
-		<Hero alignContent="center" title="Blog" type="contained" />
+		<Hero title="Blog" type="contained" />
 	</Container>
 </Section>
 
 <Container type="contained" padded>
-	<Split>
-		<div slot="first"><Image /></div>
-		<div slot="second">
-			<a href="blog/article">
-				<Text text="post" />
-			</a>
-		</div>
-	</Split>
+	<Stack>
+		{#each data.posts as { image, title, content }}
+			<Split>
+				<div slot="first">
+					<Image src={image} />
+				</div>
+				<Stack slot="second">
+					<Heading scale={2}>{title}</Heading>
+					<Text>{content}</Text>
+				</Stack>
+			</Split>
+		{/each}
+	</Stack>
 </Container>

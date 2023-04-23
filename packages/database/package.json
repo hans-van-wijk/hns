@@ -1,9 +1,22 @@
 {
   "name": "database",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "version": "1.0.0",
   "dependencies": {
-    "@prisma/client": "latest"
+    "@prisma/client": "^4.12.0",
+    "node-fetch": "^3.3.1",
+    "vite-node": "^0.30.1"
   },
   "devDependencies": {
+    "@types/node-fetch": "^2.6.3",
     "prisma": "^4.12.0"
+  },
+  "scripts": {
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push --skip-generate"
+  },
+  "prisma": {
+    "seed": "npx vite-node prisma/seed.ts"
   }
 }

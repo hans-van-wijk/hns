@@ -1,6 +1,5 @@
 <script lang="ts">
   export let el: string = "span";
-  export let text: string;
   export let scale: number = 1;
   export let contrast = false;
   export let block = false;
@@ -20,7 +19,7 @@
 
 <svelte:element
   this={el}
-  class={`hns-text`}
+  class={`hns-text ${$$props.class}`}
   class:hns-display-block={block}
   class:hns-text--contrast={contrast}
   style={scale > 1
@@ -28,5 +27,4 @@
     : "font-size: 1rem;"}
 >
   <slot />
-  {text}
 </svelte:element>

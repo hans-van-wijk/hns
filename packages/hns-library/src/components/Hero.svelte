@@ -1,5 +1,6 @@
 <script lang="ts">
   import Heading from "../ui/Heading.svelte";
+  import Text from "../ui/Text.svelte";
   import Container from "../layout/Container.svelte";
   export let type: string = "";
   export let title: string = "";
@@ -10,10 +11,10 @@
 <div class="hero">
   <Container {type} padded>
     {#if title}
-      <Heading el="h1" text={title} scale={headingSize} />
+      <Heading el="h1" scale={headingSize}>{title}</Heading>
     {/if}
     {#if subtitle}
-      <p class="hero-subtitle">{subtitle}</p>
+      <Text scale={1.5}>{subtitle}</Text>
     {/if}
     <slot />
   </Container>
@@ -22,11 +23,8 @@
 <style>
   .hero {
     padding-block: clamp(1rem, 1rem + 5vw, 5rem);
-    /* aspect-ratio: 16/9; */
+    aspect-ratio: 21/9;
     display: flex;
     align-items: center;
-  }
-  .hero-subtitle {
-    font-size: 2rem;
   }
 </style>

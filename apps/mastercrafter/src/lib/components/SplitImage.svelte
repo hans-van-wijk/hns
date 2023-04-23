@@ -7,7 +7,7 @@
 <Stack>
 	<Image />
 	<div>
-		<Heading scale={2.1} text={title} />
-		<Text text={subtitle} />
+		<Heading scale={2.1}>{title}</Heading>
+		<Text>{subtitle}</Text>
 	</div>
 </Stack>

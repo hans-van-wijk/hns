@@ -1,7 +1,6 @@
 <script lang="ts">
   export let el = "p";
-  export let text = "";
-  export let scale = 3;
+  export let scale = 1;
   export let ratio = 1.333;
 
   const remSize = () => {
@@ -20,10 +19,10 @@
 
 <svelte:element
   this={el}
-  class={`hns-heading hns-scale-${scale}}`}
+  class={`hns-heading hns-scale-${scale} ${$$props.class}`}
   style={`--hns-heading-max: ${remSize()}`}
 >
-  {text}
+  <slot />
 </svelte:element>
 
 <style>
