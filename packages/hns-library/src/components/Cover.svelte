@@ -1,7 +1,7 @@
 <script lang="ts">
   import Heading from "../ui/Heading.svelte";
   import Text from "../ui/Text.svelte";
-  import Button from "../ui/button/Button.svelte";
+  import Button from "../ui/Button/Button.svelte";
   import Stack from "../layout/Stack.svelte";
 
   export let image = "";
