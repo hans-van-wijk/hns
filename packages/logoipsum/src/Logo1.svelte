@@ -7,7 +7,7 @@
   width="132"
   height="35"
   viewBox="0 0 132 35"
-  fill="none"
+  {fill}
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
