@@ -3,8 +3,7 @@
   "globalDependencies": ["**/.env.*local"],
   "pipeline": {
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": ["./sveltekit-**"]
+      "dependsOn": ["^build"]
     },
     "lint": {
       "outputs": []

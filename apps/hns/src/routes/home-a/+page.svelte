@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Cover, Hero, Section, Container, Grid } from 'hns-library';
-	import ContentBlock from '../lib/components/ContentBlock.svelte';
+	import ContentBlock from '$lib/components/ContentBlock.svelte';
 </script>
 
 <Cover
