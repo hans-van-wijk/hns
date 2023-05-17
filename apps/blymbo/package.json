@@ -34,7 +34,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@prisma/client": "^4.12.0",
 		"database": "workspace:^1.0.0",
 		"hancss": "workspace:^1.0.0",
 		"hns-customcursor": "workspace:^1.0.0",
