@@ -7,7 +7,7 @@ h1,h2,h3,h4,h5,h6,p {
 .hns-heading {
   font-family: var(--hns-heading-font, sans-serif);
   font-weight: var(--hns-heading-weight, 600);
-  color: var(--hns-heading-color, #333);
+  color: var(--hns-app-text-color);
 }
 
 .hns-text--contrast {

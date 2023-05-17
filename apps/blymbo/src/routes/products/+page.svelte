@@ -1,18 +1,13 @@
 <script lang="ts">
-	import { Section, Hero, Container, Split, Image, Text, Heading } from 'hns-library';
-	import type { PageData } from './types';
+	import { Hero, Container, Split, Image, Text, Heading } from 'hns-library';
 	import Stack from 'hns-library/src/layout/Stack.svelte';
-	export let data: PageData;
-	console.log(data);
+	export let data;
 </script>
 
-<Section>
+<Container type="contained" padded>
 	<Container type="contained">
 		<Hero title="Products" type="contained" />
 	</Container>
-</Section>
-
-<Container type="contained" padded>
 	<Stack>
 		{#each data.products as { thumbnail, title, description }}
 			<Split>

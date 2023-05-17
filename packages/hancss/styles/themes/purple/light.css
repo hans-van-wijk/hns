@@ -4,6 +4,8 @@
   --hns-app-text-color: #0b053d;
   --hns-border-color-default: hsla(var(--hns-app-hue), 30%, 70%, .6);
   --hns-panel-fill-default: hsl(313, 50%, 80%);
+
+  
 }
 
 [data-theme="hns-light"] .hns-button-cta {

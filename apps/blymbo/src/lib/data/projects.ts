@@ -8,16 +8,14 @@ import project4 from '$lib/images/project-4.png?halfwidth';
 
 const projects = [
   {
-    title: 'Image description',
-    description: 'Web design',
+    title: 'Landing [A]',
     src: project1,
-    link: '/portfolio/item'
+    link: '/templates/landing/landing-a'
   },
   {
-    title: 'Image description',
-    description: 'Web design',
+    title: 'Landing [B]',
     src: project2,
-    link: '/portfolio/item'
+    link: '/templates/landing/landing-b'
   },
   {
     title: 'Image description',
@@ -77,12 +75,6 @@ const projects = [
     title: 'Image description',
     description: 'Web design',
     src: project4,
-    link: '/portfolio/item'
-  },
-  {
-    title: 'Image description',
-    description: 'Web design',
-    src: project1,
     link: '/portfolio/item'
   }
 ];

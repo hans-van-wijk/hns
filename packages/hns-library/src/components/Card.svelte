@@ -7,11 +7,8 @@
 <style>
   .hns-card {
     padding: var(--hns-gutter, 2.5rem);
-    border: 1px solid var(--hns-border-color-default, #eaeaea);
+    border: 1px solid var(--hns-island-line-color);
     min-height: 100%;
-    background-color: var(
-      --hns-background-color-card,
-      var(--hns-block-background)
-    );
+    background-color: var(--hns-island-background-color);
   }
 </style>

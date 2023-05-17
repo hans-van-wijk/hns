@@ -37,18 +37,16 @@
 		</div>
 	</VideoBg>
 
-	<Container type="contained">
+	<Container type="contained" padded>
 		<Section>
 			<Stack spacing="row">
 				<Split>
 					<div slot="first">
 						<Stack>
-							<Heading el="h3" scale={3} text="Just add .co to any .eth name" />
-							<Text
-								el="p"
-								scale={1}
-								text="You’ll see all of their links, NFTs, ENS domains, and profile all in one place."
-							/>
+							<Heading el="h3" scale={3}>Just add .co to any .eth name</Heading>
+							<Text el="p" scale={1}>
+								You’ll see all of their links, NFTs, ENS domains, and profile all in one place.</Text
+							>
 						</Stack>
 					</div>
 					<div slot="second">
@@ -65,17 +63,11 @@
 				<Split rev>
 					<div slot="first">
 						<Stack>
-							<Heading
-								el="h3"
-								scale={3}
-								text="Customize yours.
-              It's free!"
-							/>
-							<Text
-								el="p"
-								scale={1}
-								text="Connect your wallet to customize your own eth.co profile. Add links, a bio, avatar and more - show all your stuff in one place."
-							/>
+							<Heading el="h3" scale={3}>Customize yours. It's free!</Heading>
+							<Text el="p" scale={1}>
+								Connect your wallet to customize your own eth.co profile. Add links, a bio, avatar
+								and more - show all your stuff in one place.
+							</Text>
 						</Stack>
 					</div>
 					<div slot="second">

@@ -14,7 +14,7 @@
 <div class="cover" style={`align-items: ${position} `}>
   <div class="cover__content">
     <Stack spacing="small">
-      <Heading scale={2.75} level="1" class="cover__title">{title}</Heading>
+      <Heading scale={2.2} level="1" class="cover__title">{title}</Heading>
       <Text class="cover__description">{description}</Text>
       <a href={link} class="link">
         <Button>Read more</Button>

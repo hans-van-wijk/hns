@@ -23,7 +23,7 @@
 }
 
 html {
-  background-color: var(--hns-app-background, #fff);
+  background-color: var(--hns-app-background-color, #fff);
   color: var(--hns-app-text-color, #444);
   font-size: var(--hns-font-size, 100%);
   line-height: var(--hns-line-height, 1.5);
@@ -102,3 +102,5 @@ img,video,iframe {
   padding-block: var(--hns-padding-block, 1rem);
   border-top: 1px solid #d9d9d9;
 }
+
+

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import 'hancss/index.css';
+	import '../app.css';
 	import { Header, Section, Container } from 'hns-library';
 
 	const navItems = [

@@ -14,8 +14,8 @@
 			href: '/portfolio'
 		},
 		{
-			title: 'Blog',
-			href: '/blog'
+			title: 'Posts',
+			href: '/posts'
 		},
 		{
 			title: 'Products',
@@ -31,10 +31,9 @@
 </script>
 
 <div class="hns">
+	<Header {navItems} />
 	<Container type="contained" padded>
-		<Header {navItems} />
-
-		<Transition key={data.url} duration={600}>
+		<Transition key={data.url}>
 			<slot />
 		</Transition>
 

@@ -1,9 +1,10 @@
 [data-theme="hns-light"]  {
   --hns-app-hue: 60;
-  --hns-app-background: hsl(60, 13%, 95%);
+  --hns-app-background-color: hsl(60, 13%, 95%);
   --hns-app-text-color: #366836;
-  --hns-border-color-default: hsla(var(--hns-app-hue), 30%, 70%, .6);
-  --hns-panel-fill-default: palegreen;
+  --hns-app-line-color: hsla(var(--hns-app-hue), 30%, 70%, .6);
+
+  --hns-island-background-color: #fff;
 }
 
 

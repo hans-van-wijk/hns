@@ -5,11 +5,11 @@
   export let type: string = "";
   export let title: string = "";
   export let subtitle: string = "";
-  export let headingSize: number = 3;
+  export let headingSize: number = 3.01;
 </script>
 
 <div class="hero">
-  <Container {type} padded>
+  <Container {type}>
     {#if title}
       <Heading el="h1" scale={headingSize}>{title}</Heading>
     {/if}

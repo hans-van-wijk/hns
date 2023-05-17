@@ -1,14 +1,20 @@
 <script lang="ts">
-  export let col = 6;
+  export let masonry = false;
 </script>
 
-<div class="hns-grid" style={`grid-template-columns: repeat(2, 1fr)`}>
+<div class="hns-grid" class:masonry>
   <slot />
 </div>
 
 <style>
   .hns-grid {
     display: grid;
-    grid-gap: var(--hns-gutter);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    gap: var(--hns-gutter);
+  }
+
+  .masonry {
+    /* firefox */
+    grid-template-rows: masonry;
   }
 </style>

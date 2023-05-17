@@ -1,0 +1,6 @@
+:root {
+	--hns-app-background-color: #f5f5f2;
+	--hns-heading-font: 'Squada One';
+	--hns-app-text-color: #366836;
+	--hns-heading-color: var(--hns-text-color);
+}

@@ -7,7 +7,7 @@
 </script>
 
 <header class="hns-header">
-  <Container type={containerWidth}>
+  <Container type={containerWidth} padded>
     <Stack layout="horizontal" spread>
       <slot name="logo">
         <a href="/">

@@ -7,4 +7,5 @@
   --hns-section-spacing: 2rem;
   --hns-section-page-spacing: 8rem;
   --hns-stack-spacing-small: calc(var(--hns-gutter) / 4);
+
 }
